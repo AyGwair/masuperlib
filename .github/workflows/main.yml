@@ -25,5 +25,9 @@ jobs:
         make
 
     # Run tests
+    - name: Run Test
+      run : |
+        cd build
+        ./masuperlib-test
     
 
