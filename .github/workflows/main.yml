@@ -19,8 +19,8 @@ jobs:
     # Build project
     - name: Build poject
       run : |
-        mkdir ../../build
-        cd ../../build
+        mkdir build
+        cd build
         cmake ..
         make
 
