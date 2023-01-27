@@ -23,7 +23,7 @@ jobs:
     # peaceiris/actions-gh-pages
     # https://github.com/peaceiris/actions-gh-pages
     - name : Deploy
-    - use : peaceiris/action-gh-pages@v3
+      uses : peaceiris/action-gh-pages@v3
       with : 
         github_token : ${{ secrets.PERSONAL_TOKEN }}
         publish_dir : ./public
